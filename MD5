@@ -1,6 +1,7 @@
-ec255a9a0065c43da8c746f2de68c57f *DESCRIPTION
+87657ae1837e5c1315c56c0a994e38ee *DESCRIPTION
 fe7c703cf07e6f25fb657bab85bc2d2a *LICENSE
 52559ff5e9820cf4ab19d9f5659cba53 *NAMESPACE
+914076104b666d34f3e53f7e8e2d6df4 *NEWS.md
 45e24d5eabe33333b9c30b4071816b64 *R/RcppExports.R
 942269ad51be49c1e5b0f77aa299a62b *R/az_rec_endp.R
 9561c7b27db574f230df8928fecdb0f4 *R/az_rec_model.R
@@ -9,12 +10,12 @@ c998e5bc49cf5e58bf687b25b2d665d8 *R/az_uris.R
 0b86657c7bfa86388a2f03a2bc01ce5c *R/cold_items_model.R
 f2fa5fc62e00a6bd35b922e743201256 *R/cold_items_nullmodel.R
 de4077e87ad0877e6ea4254f4b049902 *R/ms_data.R
-33c5fb662e831fe345114a6ad257b9b2 *R/onload.R
+9978a18c31d5b5beaad050568f8a2519 *R/onload.R
 b5f0ac235053f994e3e3607a16afdb7d *R/predict_sar.R
-7b72f9e8af21bd4192640652e6c382c9 *R/sar.R
-8be9a4800c0130ac162df72bf1a34585 *R/sar_pkg.R
+679cfbd684e88423b86354539aa4c9b2 *R/sar.R
+7606ebc675a9e034ef27404f93258046 *R/sar_pkg.R
 f9bfc65a348ec73eb1c9aff29dae6e98 *R/set_sar_threads.R
-34593840e41ab735047f16484be523c2 *README.md
+1078481555bdbac5a49730d511011642 *README.md
 ccf07c85bebc2949edb1a66b3c555761 *data/ms_catalog.RData
 748c5ca981cbe182ee7976e51301666e *data/ms_usage.RData
 7636944bcfae28cba05cec110ecb013b *man/az_rec_service.Rd

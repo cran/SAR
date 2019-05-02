@@ -152,10 +152,10 @@ add_sar_methods <- function()
                            appInsightsLocation=insights_location,
                            deployPackageUri=sar_dll)
 
-        res <- az_rec_service$new(self$token, self$subscription, self$name,
-                                  name=name,
-                                  template=sar_template, parameters=parameters,
-                                  ..., wait=wait)
+        res <- SAR::az_rec_service$new(self$token, self$subscription, self$name,
+            name=name,
+            template=sar_template, parameters=parameters,
+            ..., wait=wait)
 
         res$set_data_container(data_container)
         res
@@ -164,7 +164,7 @@ add_sar_methods <- function()
     az_resource_group$set("public", "get_rec_service", overwrite=TRUE,
     function(name, data_container="inputdata")
     {
-        res <- az_rec_service$new(self$token, self$subscription, self$name, name)
+        res <- SAR::az_rec_service$new(self$token, self$subscription, self$name, name)
         if(!is_empty(data_container))
             res$set_data_container(data_container)
         res
@@ -174,15 +174,6 @@ add_sar_methods <- function()
     function(name, confirm=TRUE, free_resources=TRUE)
     {
         self$get_rec_service(name, NULL)$delete(confirm=confirm, free_resources=free_resources)
-    })
-
-    az_resource_group$set("public", "get_rec_endpoint", overwrite=TRUE,
-    function(name, admin_key, rec_key, service_host="azurewebsites.net",
-             storage_key=NULL, storage_sas=NULL, storage_host="core.windows.net",
-             storage_endpoint=NULL)
-    {
-        az_rec_endpoint$new(name, admin_key, rec_key, service_host,
-                            storage_key, storage_sas, storage_host, storage_endpoint)
     })
 
     ## add class methods to subscription

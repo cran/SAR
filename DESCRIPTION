@@ -1,6 +1,6 @@
 Package: SAR
 Title: Smart Adaptive Recommendations
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
     person("Hong", "Ooi", , "hongooi@microsoft.com", role = c("aut", "cre")),
     person("Microsoft Product Recommendations team", role = "ctb", comment="source for MS sample datasets"),
@@ -16,13 +16,13 @@ Imports: AzureRMR, AzureStor, dplyr (>= 0.7), httr, jsonlite, Matrix,
 Suggests: testthat
 LinkingTo: Rcpp, RcppArmadillo, RcppParallel
 SystemRequirements: GNU make
-RoxygenNote: 6.1.0.9000
+RoxygenNote: 6.1.1
 NeedsCompilation: yes
-Packaged: 2019-01-25 19:30:05 UTC; hongooi
+Packaged: 2019-05-02 16:16:42 UTC; hongo
 Author: Hong Ooi [aut, cre],
   Microsoft Product Recommendations team [ctb] (source for MS sample
     datasets),
   Microsoft [cph]
 Maintainer: Hong Ooi <hongooi@microsoft.com>
 Repository: CRAN
-Date/Publication: 2019-02-01 18:23:18 UTC
+Date/Publication: 2019-05-02 17:40:02 UTC
