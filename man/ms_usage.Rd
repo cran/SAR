@@ -4,7 +4,14 @@
 \name{ms_usage}
 \alias{ms_usage}
 \title{Sample usage dataset}
-\format{An object of class \code{data.frame} with 11838 rows and 3 columns.}
+\format{
+A data frame with 118383 rows and 3 columns.
+\describe{
+\item{user}{The user ID.}
+\item{item}{The item ID, corresponding to the items in the \link{ms_catalog} dataset.}
+\item{time}{The date and time of the transaction, in POSIXct format.}
+}
+}
 \source{
 Microsoft.
 }
@@ -12,12 +19,7 @@ Microsoft.
 ms_usage
 }
 \description{
-A data frame of anonymised transaction records from the Microsoft online store. The variables are:
-\itemize{
-\item \code{user}: The user ID.
-\item \code{item}: The item ID, corresponding to the items in the \link{ms_catalog} dataset.
-\item \code{time}: The date and time of the transaction, in POSIXct format.
-}
+Dataset of anonymised transaction records from the Microsoft online store.
 }
 \seealso{
 \link{ms_catalog}

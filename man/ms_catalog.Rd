@@ -4,7 +4,14 @@
 \name{ms_catalog}
 \alias{ms_catalog}
 \title{Sample catalog dataset}
-\format{An object of class \code{data.frame} with 101 rows and 3 columns.}
+\format{
+A data frame with 101 rows and 3 columns.
+\describe{
+\item{item}{The item ID, corresponding to the items in the \link{ms_usage} dataset.}
+\item{name}{A short description of the item.}
+\item{category}{The item category.}
+}
+}
 \source{
 Microsoft.
 }
@@ -12,12 +19,7 @@ Microsoft.
 ms_catalog
 }
 \description{
-A data frame containing a sample of item descriptions from the Microsoft online store. The variables are:
-\itemize{
-\item \code{item}: The item ID, corresponding to the items in the \link{ms_usage} dataset.
-\item \code{name}: A short description of the item.
-\item \code{category}: The item category.
-}
+Dataset of item descriptions from the Microsoft online store.
 }
 \seealso{
 \link{ms_usage}
