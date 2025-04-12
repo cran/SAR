@@ -1,6 +1,6 @@
 Package: SAR
 Title: Smart Adaptive Recommendations
-Version: 1.0.3
+Version: 1.0.4
 Authors@R: c(
     person("Hong", "Ooi", , "hongooi73@gmail.com", role = c("aut", "cre")),
     person("Microsoft Product Recommendations team", role = "ctb", comment="source for MS sample datasets"),
@@ -17,13 +17,13 @@ Suggests: testthat
 LinkingTo: Rcpp, RcppArmadillo, RcppParallel
 SystemRequirements: GNU make
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 NeedsCompilation: yes
-Packaged: 2020-10-06 21:59:25 UTC; hongo
+Packaged: 2025-04-12 10:49:33 UTC; hongo
 Author: Hong Ooi [aut, cre],
   Microsoft Product Recommendations team [ctb] (source for MS sample
     datasets),
   Microsoft [cph]
 Maintainer: Hong Ooi <hongooi73@gmail.com>
 Repository: CRAN
-Date/Publication: 2020-10-07 12:30:12 UTC
+Date/Publication: 2025-04-12 23:30:05 UTC
